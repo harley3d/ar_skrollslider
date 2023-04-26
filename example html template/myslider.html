@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="mystyle.css">
+	<title>Document</title>
+</head>
+<body>
+
+	<div class="main"> 
+	  <div class="skrol-photo">
+	  	<div class="skrol-photo__slides">
+		  	<div class="slide fade active" data-slide="1"><img src="img/1.jpg" alt="1"></div>
+		  	<div class="slide fade" data-slide="2"><img src="img/2.jpg" alt="2"></div>
+		  	<div class="slide fade" data-slide="3"><img src="img/3.jpg" alt="3"></div>
+		  	<div class="slide fade" data-slide="4"><img src="img/4.jpg" alt="4"></div>
+		  	<div class="slide fade"data-slide="5"><img src="img/5.jpg" alt="5"></div>
+	  	</div>
+	  	<div class="skrol-photo__range">
+	  		<input type="range" class="range" id="range" orient="vertical" min="1" max="5"  value="1" step="1">
+	  	</div>
+	  </div>
+
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="myslider.js"></script>
+</body>
+</html>
